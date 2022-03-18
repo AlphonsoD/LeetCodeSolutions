@@ -29,7 +29,7 @@ Explanation of the solution:
     Or we could add 2 to every solution for n=1:
         (1) + 2
     
-    So we could say that f(3) = f(1) + f(2), or in other words, f(3) = f(3-1) + f(3-2).
+    So we could say that if f(n) is the number of ways to add 1 and 2 to get n, then f(3) = f(2) + f(1), or in other words, f(3) = f(3-1) + f(3-2).
     In general, we can see that f(n) = f(n-1) + f(n-2).
     
 Improvements:
