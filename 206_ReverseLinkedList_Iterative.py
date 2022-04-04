@@ -15,7 +15,7 @@ class Solution:
         while head != None:
             dummy = ListNode(head.val)
             dummy.next = reversedList
-            reversedList = dummy
+            reversedList = dummy 
             head = head.next
             
         return reversedList
